@@ -44,7 +44,7 @@ game.state.add("game", { preload: preload, create: create, update: update });
 game.state.start("start");
 
 function start_preload() {
-	game.load.image("kraken_big", "/assets/kraken/pixelKrakenBig.png");
+	game.load.image("kraken_big", "pixelKrakenBig.png");
 }
 function create_preload() {
 	this.add.button(0,0, "kraken_big", function() {
@@ -60,22 +60,22 @@ function create_preload() {
 function update_preload() {}
 
 function preload() {
-	game.load.image("kraken", "/assets/kraken/miniK.png");
-	game.load.image("background", "/assets/kraken/background.jpg");
-	// game.load.image("bomb", "/assets/kraken/bomb.png");
-	game.load.image("bomb", "/assets/kraken/bomb1.png");
-	// game.load.image("bomb", "/assets/kraken/bomb2.png");
-	game.load.image("bug", "/assets/kraken/bug.png");
-	game.load.image("cherry", "/assets/kraken/cherry.png");
-	game.load.image("code", "/assets/kraken/code.png");
-	game.load.image("add", "/assets/kraken/add.png");
-	game.load.image("delete", "/assets/kraken/delete.png");
-	game.load.image("changes", "/assets/kraken/changes.png");
-	game.load.image("push", "/assets/kraken/push.png");
-	game.load.spritesheet('kaboom', '/assets/kraken/explode.png', 128, 128);
+	game.load.image("kraken", "miniK.png");
+	game.load.image("background", "background.jpg");
+	// game.load.image("bomb", "bomb.png");
+	game.load.image("bomb", "bomb1.png");
+	// game.load.image("bomb", "bomb2.png");
+	game.load.image("bug", "bug.png");
+	game.load.image("cherry", "cherry.png");
+	game.load.image("code", "code.png");
+	game.load.image("add", "add.png");
+	game.load.image("delete", "delete.png");
+	game.load.image("changes", "changes.png");
+	game.load.image("push", "push.png");
+	game.load.spritesheet('kaboom', 'explode.png', 128, 128);
 
-	game.load.audio("music", "/assets/kraken/song.mp3");
-	game.load.audio("music1", "/assets/kraken/song1.mp3");
+	game.load.audio("music", "song.mp3");
+	game.load.audio("music1", "song1.mp3");
 }
 
 function create() {
