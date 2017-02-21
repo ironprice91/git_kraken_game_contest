@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<meta data-page="kraken" data-page-tag>
+		<meta data-page="kraken-game">
+		<link rel="stylesheet" href="./main.css">
+		<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<title>#GKContest</title>
+		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" />
+		<script src="//cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/js/emojify.min.js"></script>
+	</head>
+	<body>
+
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-sm-2">
+					<div class="center text-center">
+						<h2><span id="video_game">:video_game:</span> How to play:</h2>
+						<p>There are bugs in your code! Use the arrow keys ( :arrow_left: :arrow_right: :arrow_up: :arrow_down: ) to dodge the bugs!</p>
+						<p>Collect the git commands for 5 points a piece:</p><img src="/assets/kraken/add.png" alt="add"><img src="/assets/kraken/push.png" alt="push"><img src="/assets/kraken/changes.png" alt=""><img src="/assets/kraken/delete.png" alt="">
+						<p>Collect cherries:cherries: and drop them as bombs by pressing <strong>spacebar</strong>.</p>
+						<p>Use the <strong>d</strong> key to detonate :bomb: and get rid of the bugs (10 points a piece).</p>
+						<p>** On Chrome and using the Vimium plugin? Press <strong>Shift + D</strong> to detonate. <a href="https://github.com/photonstorm/phaser/issues/1651">Phaser Issue</a></p>
+					</div>
+				</div>
+				<div class="col-md-12 col-sm-12">
+					<div id="game" class="game"></div>
+				</div>
+				<div class="col-md-6">
+					<div class="twitter-holder center">
+						<h3>Like and retweet please :grin:</h3>
+						<!-- change me when you tweet -->
+						<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Made my first <a href="https://twitter.com/hashtag/game?src=hash">#game</a> ever using <a href="https://twitter.com/hashtag/phaserjs?src=hash">#phaserjs</a> for the <a href="https://twitter.com/hashtag/GKContest?src=hash">#GKContest</a>!<br>-&gt; <a href="https://t.co/11k7jB0xt1">https://t.co/11k7jB0xt1</a> <a href="https://twitter.com/GitKraken">@GitKraken</a> <a href="https://twitter.com/photonstorm">@photonstorm</a> <a href="https://twitter.com/axosoft">@axosoft</a><a href="https://twitter.com/hashtag/gamedev?src=hash">#gamedev</a> <a href="https://twitter.com/hashtag/git?src=hash">#git</a> <a href="https://twitter.com/hashtag/JS?src=hash">#JS</a></p>&mdash; Michael Canlas (@MichaelCanlas7) <a href="https://twitter.com/MichaelCanlas7/status/720280837644636160">April 13, 2016</a></blockquote>
+						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="center">
+						<h3>Don't forget to checkout the <a href="https://twitter.com/search?q=%23GKContest&src=tyah" target="_blank">other entries</a> for the <a href="https://www.gitkraken.com/" target="_blank">Git Kraken</a> Contest. Special thanks to these amazing apps for speeding up the process to make this game!</h3>
+						<ul>
+							<li><h4><a href="http://phaser.io/tutorials/making-your-first-phaser-game/index" target="_blank">Phaser</a></h4></li>
+							<li><h4><a href="http://www.beepbox.co/" target="_blank">beepbox</a></h4></li>
+							<li><h4><a href="http://www.piskelapp.com/" target="_blank">piskel</a></h4></li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="//cdn.jsdelivr.net/phaser/2.4.6/phaser.min.js"></script>
+		<script type="text/javascript" src="./main.js"></script>
+		<script>
+			emojify.run();
+		</script>
+	</body>
+</html>
